@@ -1,0 +1,60 @@
+[INFO]Started
+[INFO]Call: main.py--devicecpu
+[INFO]Version: 0.3.0
+[INFO]PARAMETERS:
+[INFO]actor_lr: 0.0001
+[INFO]batch_size: 256
+[INFO]critic_hidden_size: 128
+[INFO]critic_lr: 0.0005
+[INFO]device: cpu
+[INFO]instance_blueprint: ALTR_20
+[INFO]instance_path: None
+[INFO]lns_Z_param: 0.8
+[INFO]lns_adaptive_search: False
+[INFO]lns_batch_size: 300
+[INFO]lns_destruction: P
+[INFO]lns_destruction_p: 0.3
+[INFO]lns_max_iterations: 50000
+[INFO]lns_nb_cpus: 1
+[INFO]lns_reheating_nb: 5
+[INFO]lns_t_max: 1000
+[INFO]lns_t_min: 10
+[INFO]lns_timelimit: 180
+[INFO]lns_timelimit_validation: 45.0
+[INFO]max_grad_norm: 2.0
+[INFO]mode: train
+[INFO]model_path: None
+[INFO]nb_batches_training_set: 1500
+[INFO]nb_runs: 1
+[INFO]nb_train_batches: 250000
+[INFO]output_path: C:\Users\Islam\Documents\GitHub\NLNS\runs\run_15.12.2022_26545
+[INFO]pointer_hidden_size: 128
+[INFO]round_distances: False
+[INFO]split_delivery: False
+[INFO]test_size: 2000
+[INFO]valid_size: 500
+[INFO]validation_seed: 0
+[INFO]----------
+[INFO]Generating training data...
+[INFO]Generating validation data...
+[INFO]Starting training...
+[INFO]Batch 250/250000, repair costs (reward): 4.981, loss: -0.851635, critic_loss: 2.242708
+[INFO]Batch 500/250000, repair costs (reward): 4.859, loss: -0.491877, critic_loss: 1.142155
+[INFO]Batch 750/250000, repair costs (reward): 4.800, loss: -0.417051, critic_loss: 1.077883
+[INFO]Batch 1000/250000, repair costs (reward): 4.670, loss: -0.000086, critic_loss: 0.962906
+[INFO]Batch 1250/250000, repair costs (reward): 4.306, loss: -0.162930, critic_loss: 0.857645
+[INFO]Batch 1500/250000, repair costs (reward): 4.130, loss: -0.316601, critic_loss: 0.707467
+[INFO]Batch 1750/250000, repair costs (reward): 4.040, loss: -0.191250, critic_loss: 0.661738
+[INFO]Batch 2000/250000, repair costs (reward): 4.033, loss: -0.223831, critic_loss: 0.592678
+[INFO]Batch 2250/250000, repair costs (reward): 4.006, loss: -0.153746, critic_loss: 0.522604
+[INFO]Batch 2500/250000, repair costs (reward): 3.969, loss: -0.143816, critic_loss: 0.508438
+[INFO]Batch 2750/250000, repair costs (reward): 3.888, loss: -0.276613, critic_loss: 0.497112
+[INFO]Batch 3000/250000, repair costs (reward): 3.815, loss: -0.163517, critic_loss: 0.421885
+[INFO]Batch 3250/250000, repair costs (reward): 3.760, loss: -0.101706, critic_loss: 0.413228
+[INFO]Batch 3500/250000, repair costs (reward): 3.715, loss: -0.111016, critic_loss: 0.365080
+[INFO]Batch 3750/250000, repair costs (reward): 3.645, loss: -0.159070, critic_loss: 0.364142
+[INFO]Batch 4000/250000, repair costs (reward): 3.615, loss: -0.159582, critic_loss: 0.344677
+[INFO]Batch 4250/250000, repair costs (reward): 3.564, loss: -0.157204, critic_loss: 0.339422
+[INFO]Batch 4500/250000, repair costs (reward): 3.520, loss: -0.164403, critic_loss: 0.330200
+[INFO]Batch 4750/250000, repair costs (reward): 3.501, loss: -0.129633, critic_loss: 0.306288
+[INFO]Batch 5000/250000, repair costs (reward): 3.486, loss: -0.114703, critic_loss: 0.309331
