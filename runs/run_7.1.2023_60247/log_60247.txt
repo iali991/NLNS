@@ -1,0 +1,40 @@
+[INFO]Started
+[INFO]Call: main.py--modeeval_single--model_pathtrained_models/cvrp/XE_1--instance_pathinstances/XE_1/XE_1_seed_123_id_0.vrp--lns_nb_cpus10--round_distances--devicecpu
+[INFO]Version: 0.3.0
+[INFO]PARAMETERS:
+[INFO]actor_lr: 0.0001
+[INFO]batch_size: 256
+[INFO]critic_hidden_size: 128
+[INFO]critic_lr: 0.0005
+[INFO]device: cpu
+[INFO]instance_blueprint: ALTR_20
+[INFO]instance_path: instances/XE_1/XE_1_seed_123_id_0.vrp
+[INFO]lns_Z_param: 0.8
+[INFO]lns_adaptive_search: False
+[INFO]lns_batch_size: 300
+[INFO]lns_destruction: P
+[INFO]lns_destruction_p: 0.3
+[INFO]lns_max_iterations: 50000
+[INFO]lns_nb_cpus: 10
+[INFO]lns_reheating_nb: 5
+[INFO]lns_t_max: 1000
+[INFO]lns_t_min: 10
+[INFO]lns_timelimit: 180
+[INFO]lns_timelimit_validation: 45.0
+[INFO]max_grad_norm: 2.0
+[INFO]mode: eval_single
+[INFO]model_path: trained_models/cvrp/XE_1
+[INFO]nb_batches_training_set: 1500
+[INFO]nb_runs: 1
+[INFO]nb_train_batches: 250000
+[INFO]output_path: C:\Users\Islam\Documents\GitHub\NLNS\runs\run_7.1.2023_60247
+[INFO]pointer_hidden_size: 128
+[INFO]round_distances: True
+[INFO]split_delivery: False
+[INFO]test_size: 2000
+[INFO]valid_size: 500
+[INFO]validation_seed: 0
+[INFO]----------
+[INFO]### Single instance search ###
+[INFO]Starting solving a single instance
+[INFO]NLNS single search evaluation results: Total Nb. Runs: 1, Mean Costs: 25462.000 Mean Runtime (s): 189.5

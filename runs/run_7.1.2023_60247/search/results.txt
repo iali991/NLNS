@@ -1,0 +1,2 @@
+# name, cost, runtime
+instances/XE_1/XE_1_seed_123_id_0.vrp,25462.0,189.48296546936035
